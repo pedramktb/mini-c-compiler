@@ -1,6 +1,6 @@
 # Mini C Compiler
 A lexical and syntaxical compiler developed by Bison and Flex for a simple C like language.
-# Notes
+## Notes
 “Lexer.l” holds Regular Expressions in order to define language tokens.
 </br>
 “Parser.y” contains Grammars of the language.
@@ -13,7 +13,7 @@ represents creation of header files and y flag represents POSIX creation form
 which uses y as the name of the parser)
 3. Compiling the given C files with “gcc lex.yy.c y.tab.c -o Compiler.exe” command
 which then yields the “Compiler.exe”.
-# Sample Tests
+## Sample Tests
 ![1](https://user-images.githubusercontent.com/79080845/193072823-890ace7b-2464-4afe-80c5-deef83fafcd5.png)
 </br>
 ![2](https://user-images.githubusercontent.com/79080845/193072834-d31f4c0b-2c0e-4967-a730-0f9737b1e73e.png)
